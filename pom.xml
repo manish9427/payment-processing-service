@@ -30,7 +30,7 @@
 			<properties>
 				<spring.profiles.active>local</spring.profiles.active>
 				<log4j2.path>
-					D:\\ctws\\sep24ct\\logs\\payment-processing-service</log4j2.path>
+					D:\\ctws\\nov24ct\\logs\\payment-processing-service</log4j2.path>
 			</properties>
 		</profile>
 		<profile>
@@ -93,6 +93,19 @@
 		    <groupId>org.modelmapper</groupId>
 		    <artifactId>modelmapper</artifactId>
 		    <version>3.2.1</version>
+		</dependency>
+		
+		<!-- Spring JDBC -->
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-data-jdbc</artifactId>
+	    </dependency>
+	
+	    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.33</version>
 		</dependency>
 
 	</dependencies>
